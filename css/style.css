@@ -1008,3 +1008,10 @@ figure.effect-bubba:hover p {
   width: 315px;
   height: 250px;
 }
+/* Media Queries */
+@media screen and (min-width:320px) and (max-width:576px) {
+  .resp-img{
+    width: 250px;
+    height: 200px;
+  }
+}
