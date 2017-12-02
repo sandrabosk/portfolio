@@ -1019,7 +1019,13 @@ figure.effect-bubba:hover p {
   height: 250px;
   margin: 0 auto;
 }
-
+.modal-1{
+  width:850px;
+}
+.modal-1-image{
+  width:350px;
+  height:450px;
+}
 /* Media Queries */
 @media screen and (min-width:320px) and (max-width:480px) {
   .original-img{
@@ -1031,6 +1037,37 @@ figure.effect-bubba:hover p {
     height: 200px;
     margin: 0 auto;
   }
+  .skills{
+    width: 100px;
+    height: 100px;
+  }
+  .modal-1{
+    width: 310px;
+    height: 100%;
+  }
+  .modal-1-image{
+    width:300px;
+    height:300px;
+  }
+}
+/*modal media queries*/
+@media screen and (min-width:768px) and (max-width: 1020px){
+  .modal-1{
+    width: 600px;
+    height: 100%;
+  }
+  .modal-1-image{
+    width:400px;
+    height:500px;
+  }
+}
+
+
+@media screen and (min-width:481px){
+  /*#Modal-1{
+    width: 500px;
+    height: 500px;
+  }*/
 }
 
 /*@media screen and (min-width:481px) and (max-width:767px) {
