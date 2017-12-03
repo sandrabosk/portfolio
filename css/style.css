@@ -355,7 +355,7 @@ color: #fff;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:350px;
+	height:200px;
 	width:350px;
 	overflow:hidden;
 	float:left;
@@ -902,6 +902,7 @@ div#slider figure {
 .skills{
   height: 150px;
   width: 150px;
+  margin-left: 30%;
 }
 
 /* added for portfolio from lattes theme */
@@ -1023,11 +1024,18 @@ figure.effect-bubba:hover p {
   width:850px;
 }
 .modal-1-image{
-  width:350px;
-  height:450px;
+  width:70%;
+  height: auto;
+  margin-left: 15%;
+}
+.ident{
+  margin-left: 10%;
+}
+.separtate{
+  margin-bottom: 3%;
 }
 /* Media Queries */
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width:480px){
   .original-img{
     width: 250px !important;
     height: 200px !important;
@@ -1041,17 +1049,20 @@ figure.effect-bubba:hover p {
     width: 100px;
     height: 100px;
   }
-  .modal-1{
+  .ident{
+    margin-left: 0px;
+  }
+  /*.modal-1{
     width: 310px;
     height: 100%;
-  }
-  .modal-1-image{
+  }*/
+  /*.modal-1-image{
     width:300px;
     height:300px;
-  }
+  }*/
 }
 /*modal media queries*/
-@media screen and (min-width:768px) and (max-width: 1020px){
+/*@media screen and (min-width:768px) and (max-width: 1020px){
   .modal-1{
     width: 600px;
     height: 100%;
@@ -1060,41 +1071,14 @@ figure.effect-bubba:hover p {
     width:400px;
     height:500px;
   }
+}*/
+
+.modal-content.ui-resizable {
+
 }
 
-
-@media screen and (min-width:481px){
-  /*#Modal-1{
-    width: 500px;
-    height: 500px;
-  }*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-
-/*@media screen and (min-width:481px) and (max-width:767px) {
-  .resp-img{
-    max-width: 612px;
-    min-width: 512px;
-    height: 250px;
-  }
-}*/
-/*style="width:512px; height: 250px; margin: 0 auto;"*/
-/*@media screen and (min-width:768px) and (max-width:1024px) {
-  .resp-img{
-    width: 512px;
-    height: 250px;
-  }
-}*/
-
-/*@media screen and (min-width:1025px) and (max-width:1280px) {
-  .resp-img{
-    width: 512px;
-    height: 250px;
-  }
-}*/
-
-/*@media screen and (min-width:1281px) {
-  .resp-img{
-    width: 512px;
-    height: 200px;
-  }
-}*/
