@@ -1021,11 +1021,11 @@ figure.effect-bubba:hover p {
   margin: 0 auto;
 }
 .modal-1{
-  width:850px;
+  width:500px;
 }
 .modal-1-image{
   width:70%;
-  height: auto;
+  height: 350px;
   margin-left: 15%;
 }
 .ident{
@@ -1033,6 +1033,9 @@ figure.effect-bubba:hover p {
 }
 .separtate{
   margin-bottom: 3%;
+}
+.aline-left{
+  margin-left:25px;
 }
 /* Media Queries */
 @media screen and (min-width:320px) and (max-width:480px){
@@ -1052,6 +1055,9 @@ figure.effect-bubba:hover p {
   .ident{
     margin-left: 0px;
   }
+  .contact-info-box h3{
+  	line-height:18px;
+  }
   /*.modal-1{
     width: 310px;
     height: 100%;
@@ -1062,16 +1068,11 @@ figure.effect-bubba:hover p {
   }*/
 }
 /*modal media queries*/
-/*@media screen and (min-width:768px) and (max-width: 1020px){
-  .modal-1{
-    width: 600px;
-    height: 100%;
+@media screen and (min-width:768px) and (max-width: 1023px){
+  .ident{
+    /*margin-left: 0px;*/
   }
-  .modal-1-image{
-    width:400px;
-    height:500px;
-  }
-}*/
+}
 
 .modal-content.ui-resizable {
 
